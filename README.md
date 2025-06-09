@@ -4,6 +4,12 @@ A simple Linux keylogger that captures and displays keystrokes
 in real-time using SDL2. It logs keys from the moment it's started
 and displays them in a small on-screen window.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Exiting](#exiting)
+
 # Installation
 Run the install script and select your platform when prompted. It will
 install required dependencies and compile the binary.
