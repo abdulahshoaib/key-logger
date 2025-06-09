@@ -2,8 +2,13 @@
 
 A linux key logger that stores the keys pressed in a file from the time it is started
 
-# Symbols against Keys
+# Installation
+Simply use the Installation script as follows, will install all required dependencies and update any required ones. Choose your platform when prompted
 
+```bash
+sudo ./install.sh
+````
+# Symbols against Keys
 
 |     Key     | Symbol |
 | ----------- | ------ |
@@ -30,9 +35,3 @@ A linux key logger that stores the keys pressed in a file from the time it is st
 | ESC         |    ⎋   |
 | SUPER-KEY   |    ⌘   |
 
-# Installation
-Simply use the Installation script as follows, will install all required dependencies and update any required ones. Choose your platform when prompted
-
-```bash
-sudo ./install.sh
-````
