@@ -8,7 +8,10 @@ and displays them in a small on-screen window.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Exiting](#exiting)
+    - [Running](#running-the-keylogger)
+    - [Exiting](#exiting)
+    - [Building](#making)
+- [Symbols](#symbols-against-keys)
 
 # Installation
 Run the install script and select your platform when prompted. It will
