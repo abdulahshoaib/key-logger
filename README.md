@@ -8,7 +8,7 @@ and displays them in a small on-screen window.
 
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Running](#running-the-keylogger)
+    - [Running](#run-the-keylogger)
     - [Exiting](#exiting)
     - [Building](#making)
 - [Symbols](#symbols-against-keys)
