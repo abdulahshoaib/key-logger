@@ -4,34 +4,28 @@ A linux key logger that stores the keys pressed in a file from the time it is st
 
 # Symbols against Keys
 
-    SPACE       = " "
-    ENTER       = ⏎
-    BACKSPACE   = ⌫
-    TAB         = ⇥
-    LEFTSHIFT   = ⇧
-    RIGHTSHIFT  = ⇧
-    LEFTALT     = [ALT]
-    RIGHTALT    = [ALT]
-    NUMLOCK     = ⇭
-    SCROLLLOCK  = ⤓
-    INSERT      = Ins
-    DELETE      = ⌦
-    MUTE        = 🔇
-    VOLUMEDOWN  = Vol-
-    VOLUMEUP    = Vol+
-    RIGHTCTRL   = ^
-    LEFTCTRL    = ^
-    HOME        = Home
-    END         = End
-    UP          = ↑
-    DOWN        = ↓
-    LEFT        = ←
-    RIGHT       = →
-    PAGEUP      = ⇞
-    PAGEDOWN    = ⇟
-    CAPSLOCK    = ⇪
-    BACKSLASH   = \
-    102ND       = <
-    ESC         = Esc
-    SUPER-KEY   = ⊞
 
+|     Key     | Symbol |
+| ----------- | ------ |
+| SPACE       |    ␣   |
+| ENTER       |    ↲   |
+| BACKSPACE   |    ⌫   |
+| TAB         |    ⇥   |
+| SHIFT       |    ⇧   |
+| ALT         |    ⎇   |
+| CTRL        |    ^   |
+| INSERT      |    ⎀   |
+| DELETE      |    ⌦   |
+| HOME        |    ↖   |
+| END         |    ↘   |
+| UP          |    ↑   |
+| DOWN        |    ↓   |
+| LEFT        |    ←   |
+| RIGHT       |    →   |
+| PAGEUP      |    ⇞   |
+| PAGEDOWN    |    ⇟   |
+| CAPSLOCK    |    ⇪   |
+| NUM-LOCK    |    ⇭   |
+| SCROLL-LOCK |    ⤓   |
+| ESC         |    ⎋   |
+| SUPER-KEY   |    ⌘   |
