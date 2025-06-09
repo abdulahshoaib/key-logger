@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+
 #include <SDL2/SDL_events.h>
 #include <SDL2/SDL_render.h>
 #include <SDL2/SDL_ttf.h>
@@ -31,7 +32,7 @@ const char *keycodeMap[256] = {
     [KEY_SEMICOLON] = ";",  [KEY_APOSTROPHE] = "'", [KEY_LEFTBRACE] = "[",
     [KEY_RIGHTBRACE] = "]", [KEY_GRAVE] = "`",      [KEY_LEFTSHIFT] = "⇧",
     [KEY_RIGHTSHIFT] = "⇧", [KEY_LEFTALT] = "⎇",    [KEY_RIGHTALT] = "⎇",
-    [KEY_NUMLOCK] = "⇭",    [KEY_SCROLLLOCK] = "⤓", [KEY_INSERT] = "⎀",
+    [KEY_NUMLOCK] = "⇭",    [KEY_SCROLLLOCK] = "⤓", [KEY_INSERT] = "↙",
     [KEY_DELETE] = "⌦",     [KEY_RIGHTCTRL] = "^",  [KEY_LEFTCTRL] = "^",
     [KEY_HOME] = "↖",       [KEY_END] = "↘",        [KEY_UP] = "↑",
     [KEY_DOWN] = "↓",       [KEY_LEFT] = "←",       [KEY_RIGHT] = "→",
