@@ -93,9 +93,18 @@ int main(void) {
     SDL_SetWindowPosition(win, x, y);
 
     while (SDL_PollEvent(&sdl_event)) {
-      if (sdl_event.type == SDL_QUIT)
-        goto cleanup;
+
+      /* Exit */
+      if (sdl_event.type == SDL_KEYDOWN) {
+        const SDL_Keycode key = sdl_event.key.keysym.sym;
+        const SDL_Keymod mod = SDL_GetModState();
+
+        if (key == SDLK_ESCAPE && (mod & KMOD_ALT))
+          goto cleanup;
+      }
     }
+
+    /* read the input */
     if (read(fd, &event, sizeof(event)) == sizeof(event)) {
       if (event.type == EV_KEY && event.value == 1) {
         const char *k = keycodeMap[event.code];

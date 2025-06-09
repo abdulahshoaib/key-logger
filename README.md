@@ -1,13 +1,39 @@
 # Key Logger
 
-A linux key logger that stores the keys pressed in a file from the time it is started
+A simple Linux keylogger that captures and displays keystrokes
+in real-time using SDL2. It logs keys from the moment it's started
+and displays them in a small on-screen window.
 
 # Installation
-Simply use the Installation script as follows, will install all required dependencies and update any required ones. Choose your platform when prompted
+Run the install script and select your platform when prompted. It will
+install required dependencies and compile the binary.
 
 ```bash
 sudo ./install.sh
 ````
+
+# Usage
+
+## Run the keylogger
+```bash
+keylogger
+```
+
+## Exiting
+When the program is running use
+```
+Alt + Esc
+```
+this will exit the keylogger
+
+## Making
+You can also build and install manually using **make**
+```bash
+make                # Compile
+sudo make run       # Compile and run
+make clean          # Remove compiled binary
+```
+
 # Symbols against Keys
 
 |     Key     | Symbol |
